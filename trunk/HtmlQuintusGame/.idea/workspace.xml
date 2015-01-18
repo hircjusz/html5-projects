@@ -57,8 +57,8 @@
       <file leaf-file-name="quintus-game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/quintus-game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8648256" vertical-offset="0" max-vertical-offset="1139">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.36177474" vertical-offset="1216" max-vertical-offset="2193">
+              <caret line="84" column="64" selection-start-line="84" selection-start-column="64" selection-end-line="84" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -81,11 +81,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="shot.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/shot.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="153">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="quintus-all.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/quintus-all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.392857" vertical-offset="54884" max-vertical-offset="114478">
-              <caret line="3239" column="0" selection-start-line="3239" selection-start-column="0" selection-end-line="3239" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.642857" vertical-offset="84355" max-vertical-offset="114478">
+              <caret line="4973" column="0" selection-start-line="4973" selection-start-column="0" selection-end-line="4973" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,8 +122,9 @@
       <list>
         <option value="$PROJECT_DIR$/js/game.js" />
         <option value="$PROJECT_DIR$/Game.html" />
-        <option value="$PROJECT_DIR$/js/quintus-all.js" />
         <option value="$PROJECT_DIR$/data/player.json" />
+        <option value="$PROJECT_DIR$/js/quintus-all.js" />
+        <option value="$PROJECT_DIR$/data/shot.json" />
         <option value="$PROJECT_DIR$/js/quintus-game.js" />
       </list>
     </option>
@@ -212,6 +223,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Darek\WebstormProjects\HtmlQuintusGame\data" />
       <recent name="C:\Users\Darek\WebstormProjects\HtmlQuintusGame\images" />
       <recent name="C:\Users\Darek\WebstormProjects\HtmlQuintusGame\img" />
       <recent name="C:\Users\Darek\WebstormProjects\HtmlQuintusGame\js" />
@@ -280,7 +292,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -288,7 +300,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17321016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27598152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -346,8 +358,28 @@
           <line>3933</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/quintus-all.js</url>
+          <line>3448</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/quintus-all.js</url>
+          <line>2231</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/quintus-all.js</url>
+          <line>2244</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/quintus-all.js</url>
+          <line>2286</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="69" />
+      <option name="time" value="92" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JavascriptDebugType">
@@ -356,7 +388,7 @@
         <watch expression="Q.Anim" language="JavaScript" />
         <watch expression="Q.animations" language="JavaScript" />
         <watch expression="this.stage" language="JavaScript" />
-        <watch expression="Q.inputs['left']" language="JavaScript" />
+        <watch expression="Q.input.touchEnabled=false" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>
@@ -403,18 +435,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/shot.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="153">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/quintus-all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.392857" vertical-offset="54884" max-vertical-offset="114478">
-          <caret line="3239" column="0" selection-start-line="3239" selection-start-column="0" selection-end-line="3239" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.642857" vertical-offset="84355" max-vertical-offset="114478">
+          <caret line="4973" column="0" selection-start-line="4973" selection-start-column="0" selection-end-line="4973" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/quintus-game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8648256" vertical-offset="0" max-vertical-offset="1139">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.36177474" vertical-offset="1216" max-vertical-offset="2193">
+          <caret line="84" column="64" selection-start-line="84" selection-start-column="64" selection-end-line="84" selection-end-column="64" />
           <folding />
         </state>
       </provider>
