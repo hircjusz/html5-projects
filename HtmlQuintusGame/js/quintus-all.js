@@ -3238,7 +3238,7 @@ Quintus.Input = function(Q) {
     Q.inputs = {};
     Q.joypad = {};
 
-    var hasTouch =  !!('ontouchstart' in window);
+    var hasTouch = true;// !!('ontouchstart' in window);
 
 
     /**
