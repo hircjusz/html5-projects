@@ -20,7 +20,20 @@ Ext.onReady(function(){
 
         },
         onRender : function() {
-
+            var tb = this.getToolbar();
+            this.menu = new Ext.menu.Menu();
+            this.field = Ext.create("Ext.form.field.Trigger", {
+                width : this.width,
+                selectOnFocus : undefined === this.selectOnFocus ?
+                    true : this.selectOnFocus,
+                triggerCls : 'x-form-clear-trigger',
+                minLength : this.minLength
+            });
+            tb.add('->', {
+                text : this.searchText,
+                menu : this.menu,
+                iconCls : this.iconCls
+            }, this.field);
 
         }
 
@@ -28,6 +41,11 @@ Ext.onReady(function(){
 
 
     //********************************************************//
+
+    Ext.create("Ext.form.field.Trigger",{
+        renderTo:Ext.getBody()
+    });
+    //************************Trigger*********************//
     var movieStore = Ext.create("Ext.data.Store", {
         fields: ["title", "rent", "buy"],
         data: [
