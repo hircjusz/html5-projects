@@ -55,6 +55,25 @@ Q.Sprite.extend("Player", {
 
 });
 
+
+Q.Sprite.extend("Alien", {
+    init: function (p) {
+
+        this._super(p, {
+            asset: "alien.png",
+            sprite: "alien",
+            sheet: "alien",
+            x: Q.el.width / 2,
+            type: Q.SPRITE_ENEMY,
+            speed: 200
+        });
+        this.add("animation");
+        this.add("BasicAI");
+        this.p.y=this.p.h;
+        //this.play("default");
+    }
+});
+
 Q.Sprite.extend(
     "Shot", {
         init: function (p) {
@@ -69,7 +88,11 @@ Q.Sprite.extend(
             // this.play('default');
         },
         step: function (dt) {
-            this.p.y -= this.p.speed * dt;
+            if(this.p.type==Q.SPRITE_FRIENDLY) {
+                this.p.y -= this.p.speed * dt;
+            }else{
+                this.p.y += this.p.speed * dt;
+            }
            if(this.p.y>Q.el.height || this.p.y<0){
                this.destroy();
            }
@@ -77,9 +100,13 @@ Q.Sprite.extend(
 
     }
 );
+
+
+
 Q.component("Gun", {
     added: function () {
         this.entity.p.shots = [];
+        this.entity.p.canFire=true;
         this.entity.on('step', 'handleFiring');
     },
     extend: {
@@ -88,23 +115,77 @@ Q.component("Gun", {
             var entity =this;
             for(var i=entity.p.shots.length-1;i>=0;i--){
                 if(entity.p.shots[i].isDestroyed){
-                    entity.p.sheet.splice(i,1);
+                    entity.p.shots.splice(i,1);
                 }
             }
 
-            if (Q.inputs['fire']) {
-                this.fire();
+            if (Q.inputs['fire'] && entity.p.type==Q.SPRITE_FRIENDLY ) {
+                this.fire(Q.SPRITE_FRIENDLY);
             }
         },
-        fire: function () {
+        fire: function (type) {
             var entity = this;
-            var shot = Q.stage().insert(new Q.Shot({
+            if(!entity.p.canFire)
+            return;
+            var shot;
+            if(type==Q.SPRITE_FRIENDLY){
+             shot = Q.stage().insert(new Q.Shot({
                 x: this.p.x + 60,
                 y: this.p.y - 50,
                 speed: 200,
-                type: Q.SPRITE_DEFAULT | Q.SPRITE_FRIENDLY
+                type:  Q.SPRITE_FRIENDLY
             }));
+            }
+            else{
+                shot = Q.stage().insert(new Q.Shot({
+                    x: this.p.x + 60,
+                    y: this.p.y  +entity.p.h-20,
+                    speed: 200,
+                    type:  Q.SPRITE_ENEMY
+                }));
+            }
             this.p.shots.push(shot);
+            entity.p.canFire=false;
+            setTimeout(function(){
+                entity.p.canFire=true;
+            },500);
+        }
+    }
+});
+
+Q.component("BasicAI",{
+    added:function(){
+        this.entity.changeDirections();
+        this.entity.on("step","move");
+        this.entity.on("step","tryToFire");
+        this.entity.add("Gun");
+    },
+    extend:{
+        changeDirections:function(){
+            var entity =this;
+            var numberofSeconds=Math.floor((Math.random()*5)+1);
+            setTimeout(function(){
+                entity.p.speed=-entity.p.speed;
+                entity.changeDirections();
+            },numberofSeconds *1000);
+
+        },
+        move:function(dt){
+            var entity=this;
+            entity.p.x-=entity.p.speed*dt;
+            if(entity.p.x>Q.el.width-(entity.p.w/2)||entity.p.x<0+(entity.p.w/2)){
+                entity            .p.speed=-entity.p.speed;
+
+            }
+        },
+        tryToFire:function(){
+            var entity=this;
+            var player=Q("Player").first();
+            if(!player)return;
+            if(player.p.x+player.p.w>entity.p.x && player.p.x-player.p.w<entity.p.w){
+                this.fire(Q.SPRITE_ENEMY);
+            }
+
         }
     }
 });
@@ -120,13 +201,16 @@ Q.scene("mainLevel", function (stage) {
     );
     stage.insert(new Q.Player());
     stage.insert(new Q.Shot({x: 100, y: 100}));
+    stage.insert(new Q.Alien());
 });
 
-Q.load(["spacebackground.jpg", "airplane51.png", "shot.png", "player.json", "shot.json"], function () {
+Q.load(["spacebackground.jpg", "airplane51.png", "shot.png","alien.png", "player.json", "shot.json","alien.json"], function () {
     Q.compileSheets("shot.png", "shot.json");
     Q.compileSheets("airplane51.png", "player.json");
+    Q.compileSheets("alien.png", "alien.json");
     Q.animations("player", {default: {frames: [0, 1, 2, 3, 4], rate: 1 / 4}});
     Q.animations("shot", {default: {frames: [0, 1, 2, 3, 4], rate: 1 / 4}});
+    Q.animations("alien", {default: {frames: [0, 1, 2, 3, 4], rate: 1 / 4}});
     Q.stageScene("mainLevel");
 
     /* Q.gameLoop(function (dt) {
