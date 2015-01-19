@@ -65,12 +65,28 @@ Q.Sprite.extend("Alien", {
             sheet: "alien",
             x: Q.el.width / 2,
             type: Q.SPRITE_ENEMY,
-            speed: 200
+            speed: 100
         });
         this.add("animation");
         this.add("BasicAI");
+        this.on("hit",function(col){
+
+           if(col.obj.p.type!=Q.SPRITE_NONE) {
+               console.log(col.obj.className);
+               console.log(col.obj.p.asset);
+           }
+            //&&(col.obj.type==Q.SPRITE_FRIENDLY)
+            if(col.obj.isA("Shot") ){
+                this.destroy();
+                col.obj.destroy();
+            }
+        });
         this.p.y=this.p.h;
-        //this.play("default");
+        //this.play("default"); 
+    },
+    step:function(dt){
+        this.stage.collide(this);
+
     }
 });
 
@@ -171,12 +187,12 @@ Q.component("BasicAI",{
 
         },
         move:function(dt){
-            var entity=this;
+           /* var entity=this;
             entity.p.x-=entity.p.speed*dt;
             if(entity.p.x>Q.el.width-(entity.p.w/2)||entity.p.x<0+(entity.p.w/2)){
                 entity            .p.speed=-entity.p.speed;
 
-            }
+            }*/
         },
         tryToFire:function(){
             var entity=this;

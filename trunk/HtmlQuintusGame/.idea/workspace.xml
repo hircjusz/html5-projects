@@ -57,8 +57,8 @@
       <file leaf-file-name="quintus-game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/quintus-game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33283803" vertical-offset="1323" max-vertical-offset="3876">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7354839" vertical-offset="1086" max-vertical-offset="4148">
+              <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -104,8 +104,8 @@
       <file leaf-file-name="quintus-all.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/quintus-all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.642857" vertical-offset="85477" max-vertical-offset="114478">
-              <caret line="5039" column="0" selection-start-line="5039" selection-start-column="0" selection-end-line="5040" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.714286" vertical-offset="11598" max-vertical-offset="114478">
+              <caret line="690" column="36" selection-start-line="690" selection-start-column="36" selection-end-line="690" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -304,7 +304,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17551963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4157044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -382,14 +382,19 @@
           <line>2286</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/quintus-game.js</url>
+          <line>74</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="124" />
+      <option name="time" value="134" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JavascriptDebugType">
-        <watch expression="player[&quot;tilew&quot;]" language="JavaScript" />
-        <watch expression="player.update()" language="JavaScript" />
-        <watch expression="Q.Anim" language="JavaScript" />
+        <watch expression="col.obj.p.asset" language="JavaScript" />
+        <watch expression="Q.SPRITE_NONE" language="JavaScript" />
+        <watch expression="Q.SPRITE_ENEMY" language="JavaScript" />
         <watch expression="Q.animations" language="JavaScript" />
         <watch expression="this.stage" language="JavaScript" />
         <watch expression="Q.input.touchEnabled=false" language="JavaScript" />
@@ -398,6 +403,7 @@
         <watch expression="entity.p.shots[i].isDestroyed" />
         <watch expression="entity.p.shots.length" />
         <watch expression="this.p.type" language="JavaScript" />
+        <watch expression="col" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>
@@ -462,16 +468,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/quintus-all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.642857" vertical-offset="85477" max-vertical-offset="114478">
-          <caret line="5039" column="0" selection-start-line="5039" selection-start-column="0" selection-end-line="5040" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.714286" vertical-offset="11598" max-vertical-offset="114478">
+          <caret line="690" column="36" selection-start-line="690" selection-start-column="36" selection-end-line="690" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/quintus-game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33283803" vertical-offset="1323" max-vertical-offset="3876">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7354839" vertical-offset="1086" max-vertical-offset="4148">
+          <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
           <folding />
         </state>
       </provider>
