@@ -52,4 +52,40 @@ Ext.onReady(function(){
 
     infoTextField.show();
 
+    Ext.define('Simple.Class',{
+        welcome:function(){
+            console.log('log simple class');
+        }
+
+    });
+
+
+    Ext.override(Simple.Class,{
+        goodBye:function(){
+            console.log('goodBye');
+        },
+        runAll:function(){
+            console.log('runAll');
+        }
+    });
+    var app= new Simple.Class();
+    app.runAll();
+
+    //***********************Selecting DOM ELEMNTS******************************//
+    var bookTitleEl = Ext.get('book-title');
+
+    // Alert the book-title element's ID
+    console.log('Book Title ID: ' + bookTitleEl.id);
+
+
+    // Get an Ext.CompositeElementLite instance containing Ext.Elements for all the LI tags in the authors UL
+    var authorsListItemEls = Ext.select('ul#authors li');
+
+    // Hide all the elements in the Ext.CompositeElementLite's collection
+    authorsListItemEls.hide();
+
+    // Retrieve the raw DOM nodes for each of the Author list's items (li tags)
+    console.log(Ext.query('ul#authors li'));
+
+
 });
