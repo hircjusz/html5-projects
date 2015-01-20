@@ -27,31 +27,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ext-using-inheritance.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ext-using-inheritance.js">
+      <file leaf-file-name="ext-workout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ext-workout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1632">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="5012" max-vertical-offset="6103">
+              <caret line="341" column="20" selection-start-line="341" selection-start-column="20" selection-end-line="341" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extending-js-component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/extending-js-component.js">
+      <file leaf-file-name="ext-api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ext-api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ext-extending-js-component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext-extending-js-component.html">
+      <file leaf-file-name="ext-api.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ext-api.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.576923" vertical-offset="62" max-vertical-offset="663">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="306">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ch02-extjs.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ch02-extjs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ch02-extjs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5907336" vertical-offset="0" max-vertical-offset="2176">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="2176">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="32" selection-end-column="12" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -79,51 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxRequest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json/ajaxRequest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="170">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ch02-extjs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch02-extjs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ext-aliasing-components.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext-aliasing-components.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="374">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ext-using-inheritance.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext-using-inheritance.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ext-all-debug.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ext-all-debug.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ext/ext-all-debug.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.214285" vertical-offset="166390" max-vertical-offset="2219758">
-              <caret line="9816" column="17" selection-start-line="9816" selection-start-column="17" selection-end-line="9816" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.24703892" vertical-offset="475854" max-vertical-offset="2219758">
+              <caret line="28000" column="6" selection-start-line="28000" selection-start-column="6" selection-end-line="28000" selection-end-column="6" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <marker date="1420034380068" expanded="true" signature="243282:243305" placeholder="..." />
@@ -184,6 +146,8 @@
         <option value="$PROJECT_DIR$/js/ext-extending-js-component.js" />
         <option value="$PROJECT_DIR$/ch02-extjs.html" />
         <option value="$PROJECT_DIR$/js/ch02-extjs.js" />
+        <option value="$PROJECT_DIR$/js/ext-api.js" />
+        <option value="$PROJECT_DIR$/ext-api.html" />
       </list>
     </option>
   </component>
@@ -261,38 +225,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extJSProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extJSProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ext" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extJSProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extJSProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -329,12 +261,7 @@
       <recent name="C:\Users\Darek\WebstormProjects\extJSProject\js" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ch02-extjs.html">
-    <configuration default="false" name="ext-aliasing-components.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/extJSProject/ext-aliasing-components.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.ext-api.html">
     <configuration default="false" name="ext-component-query.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/extJSProject/ext-component-query.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -351,6 +278,11 @@
       <method />
     </configuration>
     <configuration default="false" name="ch02-extjs.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/extJSProject/ch02-extjs.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ext-api.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/extJSProject/ext-api.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -397,19 +329,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ext-aliasing-components.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ext-component-query.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ext-extending-js-component.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ext-workout.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ch02-extjs.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ext-component-query.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ext-extending-js-component.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ext-workout.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ch02-extjs.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ext-api.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ch02-extjs.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ext-extending-js-component.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ext-workout.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ext-component-query.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ext-aliasing-components.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ext-api.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ch02-extjs.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ext-extending-js-component.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ext-workout.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ext-component-query.html" />
       </list>
     </recent_temporary>
   </component>
@@ -435,8 +367,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.369515" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23787528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -559,31 +491,17 @@
           <option name="timeStamp" value="155" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="174" />
+      <option name="time" value="175" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JavascriptDebugType">
         <watch expression="toolbar" language="JavaScript" />
+        <watch expression="this.field.el" language="JavaScript" />
+        <watch expression="this.field" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/ext-extending-js-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-workout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="459">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/ext/ext-all-debug.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="167716" max-vertical-offset="2219758">
@@ -1025,14 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ext-workout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5660" max-vertical-offset="6103">
-          <caret line="351" column="17" selection-start-line="351" selection-start-column="17" selection-end-line="351" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ext-workout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="459">
@@ -1097,10 +1007,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/ext-workout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5012" max-vertical-offset="6103">
+          <caret line="341" column="20" selection-start-line="341" selection-start-column="20" selection-end-line="341" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02-extjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ch02-extjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="2176">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ext-api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext-api.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="306">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/ext/ext-all-debug.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.214285" vertical-offset="166390" max-vertical-offset="2219758">
-          <caret line="9816" column="17" selection-start-line="9816" selection-start-column="17" selection-end-line="9816" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.24703892" vertical-offset="475854" max-vertical-offset="2219758">
+          <caret line="28000" column="6" selection-start-line="28000" selection-start-column="6" selection-end-line="28000" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <marker date="1420034380068" expanded="true" signature="243282:243305" placeholder="..." />
@@ -1130,24 +1084,6 @@
             <marker date="1420034380068" expanded="true" signature="2554990:2555009" placeholder="..." />
             <marker date="1420034380068" expanded="true" signature="2606390:2606405" placeholder="..." />
             <marker date="1420034380068" expanded="true" signature="3208775:3208785" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch02-extjs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ch02-extjs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5907336" vertical-offset="0" max-vertical-offset="2176">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
