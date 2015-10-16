@@ -1,0 +1,57 @@
+1. Mobile first - 360 px width
+2. Tablet version 768 px
+3. Jednotki relatywne, grafika wektorowa, czcionka wektorowa
+4. Jednostak relatywna EM, REM, %, VW, VH, VMIN, VMAX
+
+bazowa wielkość czcionki w przeglądarce 16px
+bazowy dla nagłówka h1 = 1,2 x X = 38,4
+1M - 100% rodzica
+1,5M - 150% rodzica
+
+1REM - wyliczamy z głównego elementu html nie z rodzica
+
+% do layoutow
+
+przelicznik z EM na px wyliczamy z 16px na 10px
+html{
+	font-size:62.5%
+}
+VW - zwiększanie rozmiaru w zależności od szerokości ekranu
+VH - zwiększanie rozmiaru w zależności od wysokości ekranu
+VMIN - zwiększanie rozmiaru w zależności od szerokości lub wysokości (brana jest najmniejsza albo szerokość albo wysokość) ekranu
+VMAX - zwiększanie rozmiaru w zależności od szerokości lub wysokości (brana jest największa albo szerokość albo wysokość) ekranu
+
+Sprawdzanie czy coś jest wspierane
+caniuse.com
+
+fluid layout:
+max-width:600px
+
+semi-fluid
+
+viewport 2 dla wszystkich przegladarek 3 dla ios
+width=device-width, jakos szerokosc ustwiamy szerokosc urzadzenia
+
+width - szerokosc przegladarki
+device-width - szerokosc ekranu urzadzenia
+
+initial-scale=1, zeby przegladarka nie dostosowywala strony do swojej rozdzielczosci np. skalowala w doł
+minimal-ui dla iOs zeby nie pokazywala pasków do przewijania
+cleartype zeby lepiej IE wyswietlal czcionki
+
+Jak childy oplywaja to trzeba dla parenta dac overflow hidden
+
+Media query od minimalnego breakpointu do maksymalnego
+
+
+//----------------3 dzien ---------------------------------------//
+
+1. Navbar - overflow
+
+1. Dodanie przycisku navbar (hamburger) div menu-button
+2.dodanie menu menu overlay
+3. wysuniecie przycisku na wierzch
+4. dodanie javascript i klasy na menu-overlay-on 
+
+jak .main-menu.super-style - to element ktory ma dwie klasy
+    .main-menu .super-style - element o klasie super-style wewnatrz elementu o klasie main-menu

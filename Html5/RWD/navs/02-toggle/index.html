@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="menu-btn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <ul class="main-menu visible">
+                <li><a href="#">o mnie</a></li>
+                <li><a href="#">doświadczenie</a></li>
+                <li><a href="#">umiejętności</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">referencje</a></li>
+                <li><a href="#">kontakt</a></li>
+                <li><a href="#">cv w pdf</a></li>
+            </ul>
+        </header>
+
+        <script>
+            window.onload = function () {
+                document.querySelector('header .menu-btn').onclick = function () {
+                    var menu = document.querySelector('header .main-menu');
+                    menu.classList.toggle('visible');
+                };
+            };
+        </script>
+    </body>
+</html>

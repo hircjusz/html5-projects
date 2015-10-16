@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <h1>Zamów usługę “SuperHiper”</h1>
+            <div class="divider"></div>
+
+            <form action="">
+                <div class="grid-item grid-s-one-whole grid-l-one-half">
+                    <div class="form-row">
+                        <label for="name">Imię i nazwisko</label>
+                        <div class="control">
+                            <input type="text" id="name">
+                            <div class="error">To pole jest wymagane</div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <div class="control">
+                            <input type="text" id="email">
+                            <div class="error">To pole jest wymagane</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item grid-s-one-whole grid-l-one-half">
+                    <div class="form-row">
+                        <label>Sposób wysyłki</label>
+                        <div class="control">
+                            <div class="grid-wrapper">
+                                <div class="grid-item grid-s-one-half">
+                                    <label><input type="radio" name="shipping"> Standardowy</label>
+                                </div>
+                                <div class="grid-item grid-s-one-half">
+                                    <label><input type="radio" name="shipping"> Ekspresowy</label>
+                                </div>
+                            </div>
+                            <div class="error">To pole jest wymagane</div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label>Dodatki</label>
+                        <div class="control">
+                            <div class="grid-wrapper">
+                                <div class="grid-item grid-s-one-half grid-m-one-third grid-l-one-half">
+                                    <label><input type="checkbox" name="extras"> Smycz</label>
+                                </div>
+                                <div class="grid-item grid-s-one-half grid-m-one-third grid-l-one-half">
+                                    <label><input type="checkbox" name="extras"> Pendrive 16GB</label>
+                                </div>
+                                <div class="grid-item grid-s-one-half grid-m-one-third grid-l-one-half">
+                                    <label><input type="checkbox" name="extras"> Wlepki</label>
+                                </div>
+                                <div class="grid-item grid-s-one-half grid-m-one-third grid-l-one-half">
+                                    <label><input type="checkbox" name="extras"> Koszula z logo</label>
+                                </div>
+                                <div class="grid-item grid-s-one-half grid-m-one-third grid-l-one-half">
+                                    <label><input type="checkbox" name="extras"> 6GB transferu</label>
+                                </div>
+                                <div class="grid-item grid-s-one-half grid-m-one-third grid-l-one-half">
+                                    <label><input type="checkbox" name="extras"> Breloczek</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item grid-s-one-whole">
+                    <div class="form-row">
+                        <label for="comment">Dodatkowe uwagi</label>
+                        <div class="control">
+                            <textarea name="" id="comment"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-zamow">Zamów</button>
+            </form>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,164 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    color: #00e;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #06e;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: h5bp.com/q
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+  background-image: url(../img/nowak.jpg);
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: rgba(0,0,0,.8);
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  overflow: hidden;
+}
+
+.menu-btn{
+  width: 30px;
+  height: 25px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.menu-btn div{
+  height: 4px;
+  background-color: #afadab;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+
+.main-menu{
+  clear: both;
+  display: none;
+}
+
+.main-menu.visible{
+  display: block;
+}
+
+.main-menu li{
+  display: block;
+  border-bottom: 1px solid #636363;
+}
+
+.main-menu li a{
+  display: block;
+  color: #bababa;
+  text-transform: uppercase;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.main-menu li a:hover{
+  background-color: rgba(255,255,255,.1);
+}
+
+@media only screen and (min-width: 600px){
+  .main-menu{
+    display: table;
+    width: 100%;
+  }
+
+  .main-menu li{
+    display: table-cell;
+  }
+
+  .menu-btn{
+    display: none;
+  }
+}
+
+
+

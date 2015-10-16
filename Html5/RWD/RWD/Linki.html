@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Web Design</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <style>
+        #links-list{
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        body{
+            padding-bottom: 20px;
+        }
+
+        main{
+            margin-bottom: 50px;
+        }
+
+        footer{
+            height: 50px;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Responsive Web Design</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main>
+            <ul class="list-group" id="links-list"></ul>
+        </main>
+
+        <hr>
+
+        <footer>
+            <p>&copy; Maciej Żukiewicz 2015</p>
+        </footer>
+    </div>
+
+    <script>
+        var links = {
+
+            'Artykuły i tutoriale': null,
+            '30 przydatnych wskazówek': 'http://www.creativebloq.com/mobile/mobile-design-912823',
+            'Videotutorial na temat Flexbox': 'https://www.youtube.com/watch?v=G7EIAgfkhmg',
+            'Dlaczego w Media Queries używać em': 'http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/',
+            '7 przydatnych wskazówek definiowania Media Queries': 'http://bradfrost.com/blog/post/7-habits-of-highly-effective-media-queries/',
+            'responsivedesign.is - artykuły o projektowaniu i tworzeniu stron RWD': 'https://responsivedesign.is/',
+            'Kontrolowanie responsywnej typografii': 'http://madebymike.com.au/writing/precise-control-responsive-typography/',
+            'Specyfikacja crossdomain.xml na Adobe': 'http://www.adobe.com/devnet/articles/crossdomain_policy_file_spec.html',
+            'Artykuł od Adobe na temat ustawiania crossdomain.xml': 'http://www.adobe.com/devnet/adobe-media-server/articles/cross-domain-xml-for-streaming.html',
+            'Plugin do tabelek typu "Priority Columns"': 'http://gergeo.se/RWD-Table-Patterns/#demo',
+
+            'Optymalizacja' : null,
+            'Szybki poradnik na temat metaznaczników na stronach mobilnych': 'http://bookofzeus.com/articles/html/quick-guide-to-mobile-devices-meta-tags/',
+            'Poradnik, jak optymalizować aplikację pod iOS': 'http://blog.teamtreehouse.com/optimizing-mobile-web-apps-ios',
+            'Dokumentacja Apple na temat wspieranych metatagów': 'https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html',
+            'Tabelka z rozmiarami faviconek': 'http://iconhandbook.co.uk/reference/chart/favicons/',
+
+            'Testowanie i debuggowanie': null,
+            'Browserstack - płatne, potężne narzędzie do testowania stron na wielu rzeczywistych urządzeniach': 'https://www.browserstack.com',
+            'Podgląd strony na wielu róznych rozmiarach na raz': 'http://mattkersley.com/responsive/',
+            'Inny, prosty w obsłudze tester róznych wielkości strony': 'https://www.responsinator.com',
+            'Am I Responsive - ciekawe narzędzie do podglądu strony': 'http://ami.responsivedesign.is/',
+            'Responsive Checker - bardzo proste i przydatne narzędzie': 'http://responsivedesignchecker.com/',
+
+            'Jednostki relatywne': null,
+            'Artykuł na temat jednostek w CSS': 'http://www.sitepoint.com/new-css3-relative-font-size/',
+            'Jednostki vw, vh, vmin, vmax': 'https://css-tricks.com/viewport-sized-typography/',
+
+            'Praca z SVG': null,
+
+            'Artykuł na CSS Tricks': 'https://css-tricks.com/using-svg/',
+            'Video tutorial na temat optymalizacji': 'https://www.youtube.com/watch?t=728&v=iVzW3XuOm7E',
+            'Optymalizator SVG Online': 'http://petercollingridge.appspot.com/svg_optimiser',
+            'Optymalizator konsolowy SVG': 'https://github.com/svg/svgo',
+            'Przyjazny i szybki konwerter do Base64': 'http://b64.io/',
+            'Konwerter do Base64 (Mobilefish)': 'http://www.mobilefish.com/services/base64/base64.php',
+
+            'Ikonki': null,
+            'Iconfinder (SVG)': 'https://www.iconfinder.com/',
+            'IconMoon - pozwala też na konwertowanie SVG na Fonty': 'https://icomoon.io/',
+            'Font Awsome - olbrzymi zbiór ikonek (FF)': 'http://fortawesome.github.io/Font-Awesome/',
+            'The Noun Project': 'https://thenounproject.com/',
+            'Flaticon': 'http://www.flaticon.com/',
+            'Iconmonstr': 'http://iconmonstr.com/',
+            'Game Icons': 'http://game-icons.net/',
+
+            'Mockupy i prototypowanie': null,
+            'Framer - bardzo ciekawa aplikacja do budowania prototypow': 'http://framerjs.com/',
+            'FluidUI - Prosta aplikacja do prototypowania': 'https://www.fluidui.com',
+            '23 ciekawe narzędzia do prototypowania': 'http://mashable.com/2013/04/02/wireframing-tools-mobile/#kDoijH5W55qV',
+            'Invision - rozbudowania aplikacja do prototypowania': 'http://www.invisionapp.com/',
+
+            'Mockup World - Wiele ciekawych i darmowych mockupów': 'http://www.mockupworld.co/',
+            'Ponad 100 Mockupów dla iPhone\'a': 'http://designshack.net/articles/inspiration/100-iphone-psd-vector-mockups/',
+            'Ponad 100 Mockupów dla iPad\'a': 'http://designshack.net/articles/inspiration/100-ipad-mockups-psds-photos-vectors/',
+
+        };
+
+        var linksList = document.querySelector('#links-list');
+        var createNode = function (title, url) {
+
+            var li = document.createElement('li');
+            li.className = 'list-group-item';
+
+
+            if (null === url) {
+                var strong = document.createElement('strong');
+                strong.appendChild(document.createTextNode(title));
+
+                li.appendChild(strong);
+                li.className = li.className+' text-center';
+            } else {
+                li.appendChild(document.createTextNode(title));
+
+                var link = document.createElement('a');
+                link.className = 'btn btn-success btn-xs pull-right';
+                link.href = url;
+                link.innerHTML = 'Zobacz';
+                link.target = '_blank';
+
+                li.appendChild(link);
+            }
+
+            return li;
+        };
+
+        for(title in links){
+            var url = links[title];
+            var node = createNode(title, url);
+            linksList.appendChild(node);
+        }
+    </script>
+
+</body>
+</html>

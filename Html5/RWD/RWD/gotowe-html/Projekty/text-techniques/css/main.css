@@ -1,0 +1,181 @@
+
+/*
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/opensans-bold-webfont.eot');
+    src: url('../assets/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../assets/fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../assets/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/opensans-bolditalic-webfont.eot');
+    src: url('../assets/fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/opensans-bolditalic-webfont.woff') format('woff'),
+         url('../assets/fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
+         url('../assets/fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/opensans-extrabold-webfont.eot');
+    src: url('../assets/fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/opensans-extrabold-webfont.woff') format('woff'),
+         url('../assets/fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+         url('../assets/fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+*/
+
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    color: #00e;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #06e;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: h5bp.com/q
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F1F1F1;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    height: 70px;
+    line-height: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.shadow{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+.promo-box{
+    padding: 0 15px;
+    height: 250px;
+    display: table;
+}
+
+.promo-box p{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.center-wrapper{
+    max-width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.grid-wrapper{
+    overflow: hidden;
+    margin: 0 -10px;
+}
+
+.grid-item{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+

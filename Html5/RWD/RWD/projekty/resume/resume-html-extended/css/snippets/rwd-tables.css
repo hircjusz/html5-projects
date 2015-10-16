@@ -1,0 +1,64 @@
+@media screen and (max-width: 48em){
+
+    /* Simple RWD Table */
+    .rwd-table-simple-slider{
+        overflow-x: auto;
+    }
+
+
+    /* Flip Table */
+    .rwd-flip-table{
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .rwd-flip-table thead{
+        display: block;
+        float: left;
+    }
+
+    .rwd-flip-table thead th{
+        display: block;
+    }
+
+    .rwd-flip-table tbody{
+        display: block;
+        width: auto;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        background-color: #fff;
+    }
+
+    .rwd-flip-table tbody tr{
+        display: inline-block;
+    }
+
+    .rwd-flip-table tbody th,
+    .rwd-flip-table tbody td{
+        display: block;
+    }
+
+
+    /* Convert Table 2 List */
+    .rwd-table-list thead{
+        display: none;
+    }
+
+    .rwd-table-list tbody th,
+    .rwd-table-list tbody td{
+        display: block;
+    }
+
+    .rwd-table-list tbody th:before,
+    .rwd-table-list tbody td:before{
+        content: attr(data-col-name);
+        display: block;
+        float: left;
+        width: 50%;
+        padding-right: 1rem;
+        text-align: right;
+        font-weight: bold;
+    }
+
+}

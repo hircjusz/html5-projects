@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <div class="center-wrapper">
+
+            <div class="slider-wrapper">
+                <div class="slider-viewport">
+                    <div class="slider-list">
+                        <div class="slider-slide" data-hi-res="img/photo-1@2.jpg" data-low-res="img/photo-1.jpg"></div>
+                        <div class="slider-slide" data-hi-res="img/photo-2@2.jpg" data-low-res="img/photo-2.jpg"></div>
+                        <div class="slider-slide" data-hi-res="img/photo-3@2.jpg" data-low-res="img/photo-3.jpg"></div>
+                        <div class="slider-slide" data-hi-res="img/photo-4@2.jpg" data-low-res="img/photo-4.jpg"></div>
+                    </div>
+                </div>
+
+                <button class="slider-nav nav-left"></button>
+                <button class="slider-nav nav-rigth"></button>
+            </div>
+
+        </div>
+
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script>
+            $(document).ready(function () {
+
+                var $sliderList = $('.slider-list');
+                var $slidesItems = $('.slider-slide');
+                var $currSlide = $slidesItems.first();
+
+                $('.slider-nav').click(function () {
+
+                    var $this = $(this);
+                    var $next = null;
+
+                    if($this.hasClass('nav-left')){
+                        $next = $currSlide.prev();
+
+                        if($next.size() < 1){
+                            $next = $slidesItems.last();
+                        }
+                    }else{
+                        $next = $currSlide.next();
+
+                        if($next.size() < 1){
+                            $next = $slidesItems.first();
+                        }
+                    }
+
+                    var idx = $next.index();
+                    var pos = idx*-100;
+                    $sliderList.css('margin-left', (pos+'%'));
+
+                    $currSlide = $next;
+                });
+
+            });
+
+        </script>
+    </body>
+</html>

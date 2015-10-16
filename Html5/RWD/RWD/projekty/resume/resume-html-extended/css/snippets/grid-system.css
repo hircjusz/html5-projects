@@ -1,0 +1,50 @@
+.grid-wrapper:before,
+.grid-wrapper:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.grid-wrapper:after {
+    clear: both;
+}
+
+.grid-item{
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.one-whole-small{
+    width: 100%;
+}
+.one-half-small{
+    width: 50%;
+}
+.one-third-small{
+    width: 33.333%;
+}
+
+@media screen and (min-width: 48em){
+    .one-whole-medium{
+        width: 100%;
+    }
+    .one-half-medium{
+        width: 50%;
+    }
+    .one-third-medium{
+        width: 33.333%;
+    }
+}
+
+@media screen and (min-width: 62.500em){
+    .one-whole-large{
+        width: 100%;
+    }
+    .one-half-large{
+        width: 50%;
+    }
+    .one-third-large{
+        width: 33.333%;
+    }
+}

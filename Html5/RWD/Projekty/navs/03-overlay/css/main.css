@@ -1,0 +1,178 @@
+/*! HTML5 Boilerplate v5.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #1a1516;
+    color: #fff;
+}
+
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.section{
+    margin-bottom: 60px;
+}
+
+.section-heading{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+
+.section p{
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+.menu-btn{
+  width: 30px;
+  height: 25px;
+  position: fixed;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  z-index: 30;
+}
+
+.menu-btn div{
+  height: 4px;
+  background-color: #afadab;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+
+.main-menu{
+  clear: both;
+  display: none;
+  background-color: rgba(150,150,150, 0.11);
+}
+
+.main-menu.visible{
+  display: block;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
+
+.main-menu li{
+  display: block;
+  border-bottom: 1px solid #636363;
+}
+
+.main-menu li a{
+  display: block;
+  color: #bababa;
+  text-transform: uppercase;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.main-menu li a:hover{
+  background-color: rgba(255,255,255,.1);
+}

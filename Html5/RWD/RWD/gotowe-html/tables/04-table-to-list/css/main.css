@@ -1,0 +1,209 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    color: #00e;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #06e;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: h5bp.com/q
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+    background-color: #F1F1F1;
+    font-size: 14px;
+}
+
+table{
+    margin: 30px 0;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+    border-collapse: collapse;
+    border: 1px solid #38678f;
+    background: white;
+    width: 100%;
+}
+
+table tr{
+    border-bottom: 1px solid #cccccc;
+}
+
+table tr:last-child{
+    border-bottom: 0;
+}
+
+table th,
+table td{
+    padding: 10px;
+}
+
+table th{
+    background: steelblue;
+    height: 34px;
+    font-weight: lighter;
+    text-shadow: 0 1px 0 #38678f;
+    color: white;
+    border: 1px solid #38678f;
+    box-shadow: inset 0px 1px 2px #568ebd;
+}
+
+table td{
+    border-right: 1px solid #cccccc;
+}
+
+table td:last-child{
+    border-right: 0;
+}
+
+.article{
+    background-color: #fff;
+    padding: 15px;
+    max-width: 1200px;
+    margin: 50px auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 650px){
+    table thead{
+        display: none;
+    }
+
+    table{
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+    }
+
+    table tr,
+    table td{
+        display: block;
+    }
+
+    table tr{
+        margin-bottom: 20px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+        border: 1px solid #38678f;
+    }
+
+    table td{
+        font-weight: 600;
+        position: relative;
+        padding-left: 51%;
+        border-right: none;
+        border-bottom: 1px solid #cccccc;;
+    }
+
+    table td:first-child{
+        background: steelblue;
+        color: #fff;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    table td::before{
+        content: attr(data-col-name);
+        display: block;
+        padding: 10px 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 49%;
+        text-align: right;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    table td{
+        text-align: right;
+    }
+
+    table td::before{
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
