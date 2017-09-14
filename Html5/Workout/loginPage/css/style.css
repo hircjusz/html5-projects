@@ -1,0 +1,49 @@
+body {
+    background-color: darkgrey;
+}
+
+.row {
+    padding-top: 1.429em;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.center-wrapper {
+    max-width: 58.75rem;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-login {
+    height: 87px;
+    background-color: white;
+}
+
+.left-login {
+    background-color: white;
+    height: 513px;
+}
+
+.right-login {
+    background-color: white;
+    height: 513px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:520px) {
+    .left-login {
+        float: left;
+        width: 32%;
+    }
+    .right-login {
+        float: right;
+        width: 65%;
+        margin-top: 0px;
+    }
+    .head-login {
+        clear: both;
+    }
+}
