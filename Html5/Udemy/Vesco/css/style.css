@@ -109,6 +109,17 @@ h3 {
     color: #41464b;
 }
 
+.btn-blue {
+    border-color: #34c6d3;
+    color: #34c6d3;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    background-color: #34c6d3;
+    color: #fff;
+}
+
 
 /* =========================================================
              ANIMATE
@@ -188,4 +199,46 @@ h3 {
 .service-item-desc p {
     margin: 0px;
     margin-left: 100px;
+}
+
+
+/* =========================================================
+                  ABOUT
+============================================================*/
+
+#about-content-box {
+    float: left;
+    height: 700px;
+}
+
+#about-content-box-outer {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about .about-desc {
+    margin-bottom: 30px;
+}
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url("../img/bg-about.jpg");
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
 }
