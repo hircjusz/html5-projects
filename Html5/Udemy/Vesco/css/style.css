@@ -15,10 +15,12 @@ ColorZilla
 https://fonts.google.com/specimen
 fontawesome.io
 https://raw.githubusercontent.com/daneden/animate.css/master/animate.css
+wow animation
 *******************************************************************/
 
 body {
     font-family: "Roboto Condensed", "sans-serif";
+    box-sizing: border-box;
 }
 
 html,
@@ -26,8 +28,15 @@ body {
     height: 100%;
 }
 
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
 h3 {
     text-transform: uppercase;
+    color: #41464b;
 }
 
 
@@ -118,4 +127,65 @@ h3 {
 #home-btn {
     animation-delay: 1s;
     animation-duration: .5s;
+}
+
+
+/* =========================================================
+             CONTENT BOX
+============================================================*/
+
+.content-box {
+    padding: 60px 0px;
+}
+
+.content-title h3 {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+}
+
+
+/* =========================================================
+            SERVICES
+============================================================*/
+
+.service-item-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+}
+
+.service-item {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item-icon i {
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+    color: #fff;
+    background-color: #34c6d3;
+}
+
+.service-item-desc p {
+    margin: 0px;
+    margin-left: 100px;
 }
