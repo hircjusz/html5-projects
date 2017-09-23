@@ -1,0 +1,11 @@
+/* ******************************************************
+
+Default Values:
+Font Family: Roboto Condensed
+Greenish Blue : #34c6d3 (Buttons,Icons,Links,Lines,Backgrounds)
+
+*******************************************************************/
+
+body {
+    font-family: "Roboto Condensed", "sans-serif";
+}
