@@ -601,3 +601,63 @@ address strong,
     color: #34c6d3;
     cursor: pointer;
 }
+
+
+/* =========================================================
+        NAVIGATION
+============================================================*/
+
+.navbar {
+    padding: 20px 0;
+}
+
+.vesco-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.vesco-nav-wrapper {
+    padding: 0 75px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav>li>a {
+    color: #fff !important;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    color: #34c6d3 !important;
+}
+
+.navbar-toggle {
+    border-color: rgba(0, 0, 0, 0.0);
+    border: 1px solid #fff !important;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+.vesco-top-nav ul.navbar-nav>li.active>a {
+    color: #34c6d3 !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+}
