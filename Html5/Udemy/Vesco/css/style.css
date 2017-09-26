@@ -265,10 +265,11 @@ h3 {
 .img-wrapper img {
     /* transition: transform .5s ease;*/
     cursor: zoom-in;
+    width: 100%;
 }
 
 .img-wrapper img:hover {
-    transform: scale(1.5),
+    transform: scale(1.5);
 }
 
 
@@ -554,6 +555,10 @@ address strong,
     padding: 8px 16px;
     color: #fff;
     margin: 15px 0;
+}
+
+#send-btn {
+    float: right;
 }
 
 
