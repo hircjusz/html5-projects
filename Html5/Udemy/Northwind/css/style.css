@@ -1,0 +1,42 @@
+/* ******************************************************
+
+Default Values:
+Font Family: Roboto Condensed
+Greenish Blue : #34c6d3 (Buttons,Icons,Links,Lines,Backgrounds)
+Steel Gray    : #41464b (Headings)
+Blue Bayoux   : #64707b (Paragraphs)
+White         :#fff     (Text With Black Backgrounds)
+Black         :#000     
+
+flatuicolors.com
+adobeschemagenerator
+webpagefx.com - converter hex to rgb
+ColorZilla
+https://fonts.google.com/specimen
+fontawesome.io
+https://raw.githubusercontent.com/daneden/animate.css/master/animate.css
+wow animation
+gratisography
+*******************************************************************/
+
+body {
+    font-family: "Roboto Condensed", "sans-serif";
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #41464b;
+}
+
