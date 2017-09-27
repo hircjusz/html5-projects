@@ -131,6 +131,15 @@ nav ul ul li {
     position: relative;
 }
 
+nav>ul {
+    padding-left: 35px;
+}
+
+nav>ul>li>a {
+    padding: 10px 20px 15px 20px;
+    width: auto;
+}
+
 @media screen and (max-width: 750px) {
     header a.logo {
         width: 120px;
@@ -150,5 +159,15 @@ nav ul ul li {
     aside {
         width: 100%;
         float: none;
+    }
+    nav {
+        padding: 70px 0 0 10px;
+    }
+    nav>ul {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    nav>ul>li>a {
+        padding: 8px 12px 10px 12px;
     }
 }
