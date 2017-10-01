@@ -1,0 +1,126 @@
+/*DEFAULT*/
+
+article {
+    margin: 20px 0;
+}
+
+
+/* COMMENT*/
+
+#main-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em .5em;
+}
+
+.comment {
+    padding: 10px;
+    position: absolute;
+    width: 7em;
+    margin-left: -10em;
+    margin-top: -2.5em;
+    background-color: #dcf0ff;
+    border-radius: 1em;
+}
+
+.comment:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: .5em solid #dcf0ff;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    right: -1em;
+    top: 1em;
+}
+
+
+/* AUTHOR*/
+
+.author-meta {
+    padding: 1em 0;
+}
+
+.author-image {
+    width: 10em;
+    height: 10em;
+}
+
+.author-image,
+.author-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.author-name,
+.author-email {
+    display: block;
+}
+
+.author-meta {
+    height: 10em;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.author-info {
+    text-align: left;
+}
+
+
+/*IMAGE*/
+
+#figure img {
+    background-color: #eee;
+    margin: 0;
+    padding: 1em;
+    float: right;
+    max-width: 17em;
+    max-height: 17em;
+    margin-right: -8em;
+    /* pull to the right */
+    margin-left: 1em;
+    overflow-x: hidden;
+}
+
+
+/*NAVIGATION*/
+
+.navbar ul {
+    font-family: Avenir Next, Avenir, Century Gothic, sans-serif;
+    list-style: none;
+    padding: 0;
+    background-color: #486a8e;
+    font-size: 0;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    height: 100px;
+}
+
+.navbar li {
+    text-transform: uppercase;
+    display: table-cell;
+    text-align: center;
+    box-sizing: border-box;
+    width: 25%;
+    background-color: #12459e;
+    outline: 1px solid #fff;
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.navbar li:first-child {
+    margin-right: auto;
+}
+
+.navbar li a {
+    display: block;
+    color: #fff;
+    line-height: 1.75em;
+    text-decoration: none;
+    padding: 1em;
+}
