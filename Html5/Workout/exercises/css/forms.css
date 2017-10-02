@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: 0;
+    padding: 0.01px 0 0 0;
+    margin: 0;
+    min-width: 0;
+    display: table-cell;
+}
+
+.fieldset-wrapper {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.fieldset-wrapper {
+    border: 0;
+}
+
+legend {
+    padding: 0 0 .5em 0;
+    font-weight: bold;
+    color: #777;
+    display: table;
+}
+
+input,
+textarea {
+    font: inherit;
+}
+
+.field-text {
+    width: 100%;
+}
+
+.field-text label {
+    cursor: pointer;
+}
+
+.field-text label,
+.field-text input {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.field-text input {
+    padding: .375em .3125em .3125em;
+    border: 1px solid #ccc;
+    border-radius: .25em;
+    -webkit-appearance: none;
+}
+
+.field-text input:focus {
+    box-shadow: 0 0 .5em rgba(93, 162, 248, 0.5);
+    border-color: #5da2f8;
+    outline: 0;
+}
+
+textarea {
+    height: 10em;
+    resize: vertical;
+    width: 100%;
+    padding: .375em .3125em .3125em;
+    border: 1px solid #ccc;
+    border-radius: .25em;
+}
+
+textarea:focus {
+    box-shadow: 0 0 .5em rgba(93, 162, 248, 0.5);
+    border-color: #5da2f8;
+    outline: 0;
+}
+
+input[type="radio"] {
+    margin-right: .75em;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    border: 0;
+    padding: .5em 1em;
+    color: #fff;
+    border-radius: .25em;
+    font-size: 1em;
+    background-color: #173b6d;
+    background-image: linear-gradient(to bottom, #1a4a8e, #173b6d);
+    box-shadow: 0 .25em 0 rgba(23, 59, 109, 0.3), inset 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+.checkboxes {
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+}
+
+.checkboxes li {
+    margin-bottom: .5em;
+    width: 50%;
+    float: left;
+}
+
+.row {
+    clear: both;
+}
+
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 330px) {
+    .checkboxes li {
+        width: 100%;
+        text-align: center;
+        padding: 0.5em 0.5em;
+    }
+    .right p{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+  
+    .left {
+        width: 59%;
+        float: left;
+    }
+    .right {
+        width: 39%;
+        float: right;
+    }
+    
+    .checkboxes li {
+        width: 33%;
+    }
+}

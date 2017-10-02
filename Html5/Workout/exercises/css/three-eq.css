@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    color: #00e;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #06e;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F1F1;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center-wrapper {
+    max-width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.promo-box {
+    padding: 0 15px;
+    height: 250px;
+    display: table;
+}
+
+.promo-box p {
+    display: table-cell;
+    vertical-align: middle;
+}

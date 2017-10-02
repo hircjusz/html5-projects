@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Modern responsive website</title>
+    <link href="css/forms.css" rel="stylesheet">
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <form id="comments_form" action="/comments/" method="post">
+        <div class="row">
+            <div class="left fieldset-wrapper">
+                <fieldset>
+                    <legend>Your Contact Details</legend>
+                    <p class="field field-text">
+                        <label for="comment-author">Name:</label>
+                        <input name="comment-author" id="comment-author" type="text" />
+                    </p>
+                    <p class="field field-text">
+                        <label for="comment-email">Email Address:</label>
+                        <input name="comment-email" id="comment-email" type="email" />
+                    </p>
+                    <p class="field field-text">
+                        <label for="comment-url">Web Address:</label>
+                        <input name="comment-url" id="comment-url" type="url" />
+                    </p>
+                </fieldset>
+            </div>
+            <div class="right fieldset-wrapper">
+                <fieldset>
+                    <legend>Remember Me</legend>
+                    <p class="field">
+                        <label><input name="comment-remember" type="radio" value="yes" />Yes</label>
+                    </p>
+                    <p class="field">
+                        <label><input name="comment-remember" type="radio" value="no" checked="checked"
+/>No</label>
+                    </p>
+                </fieldset>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fieldset-wrapper">
+                <ul class="checkboxes">
+                    <li>
+                        <input type="checkbox" name="lang-as" id="lang-as">
+                        <label for="lang-as">ActionScript1</label>
+                    </li>
+                     <li>
+                        <input type="checkbox" name="lang-as" id="lang-as">
+                        <label for="lang-as">ActionScript2</label>
+                    </li>
+                     <li>
+                        <input type="checkbox" name="lang-as" id="lang-as">
+                        <label for="lang-as">ActionScript3</label>
+                    </li>
+                     <li>
+                        <input type="checkbox" name="lang-as" id="lang-as">
+                        <label for="lang-as">ActionScript4</label>
+                    </li>
+                     <li>
+                        <input type="checkbox" name="lang-as" id="lang-as">
+                        <label for="lang-as">ActionScript5</label>
+                    </li>
+                     <li>
+                        <input type="checkbox" name="lang-as" id="lang-as">
+                        <label for="lang-as">ActionScript6</label>
+                    </li>
+                     <li>
+                        <input type="checkbox" name="lang-as" id="lang-as">
+                        <label for="lang-as">ActionScript7</label>
+                    </li>
+                     <li>
+                        <input type="checkbox" name="lang-as" id="lang-as">
+                        <label for="lang-as">ActionScript8</label>
+                    </li>
+                    <!-- ...and so on-->
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fieldset-wrapper">
+                <fieldset>
+                    <legend>Comments</legend>
+                    <p class="field field-text">
+                        <label for="comment-text">Message:</label>
+                        <textarea name="comment-text" id="comment-text" cols="20" rows="10"></textarea>
+                    </p>
+                </fieldset>
+            </div>
+        </div>
+
+        <input type="submit" value="Post comment" />
+    </form>
+
+</body>
+
+</html>
