@@ -1,0 +1,22 @@
+#main{
+    width: 90%;
+    margin: 0 auto;
+}
+.sec1,.sec2,.sec3{
+    float: left;
+    
+}
+.sec1{width:25%;}
+.sec2{width:50%;}
+.sec3{width:25%;}
+
+.content{
+    margin: 0 .5em;
+    border: 1px solid;
+    padding: .5em;
+    
+}
+
+.content>div{
+    margin: 0.5em 0;
+}

@@ -5,18 +5,18 @@
     background-repeat: no-repeat;
     background-color: #8Da9cf;
     background-clip: border-box;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: 50% 50%;
     background-size: 100% auto;
     position: relative;
 }
 
 .profile-photo {
-    width: 160px;
+    width: 330px;
     min-height: 200px;
     position: absolute;
-    bottom: -60px;
-    left: 5%;
+    bottom: -130px;
+    left: 3%;
     background-color: #fff;
     border: 1px solid #777;
     border-radius: 0.5em;

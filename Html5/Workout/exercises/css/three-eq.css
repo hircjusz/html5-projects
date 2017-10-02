@@ -58,3 +58,16 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
+.shadow{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+.grid-item{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.grid-wrapper{
+    overflow: hidden;
+    margin: 0 -10px;
+}
