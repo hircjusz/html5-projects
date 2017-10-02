@@ -1,0 +1,25 @@
+.main-content {}
+
+.secondary-content {}
+
+.column {
+    /* general column styles */
+}
+
+.column-half {
+    /* taking up 50% of the row width */
+}
+
+.row {
+    /* general row styles */
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 95%;
+    max-width: 76em;
+    margin: 0 auto;
+}
