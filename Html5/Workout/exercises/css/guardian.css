@@ -99,11 +99,11 @@ a:focus {
 }
 
 .row-quartet>* {
-    width: 25%;
+    width: 23.2%;
 }
 
 .row-trio>* {
-    width: 33.3333%;
+    width: 31.5333%;
 }
 
 .subcategory {
@@ -112,15 +112,15 @@ a:focus {
 }
 
 .subcategory-featured {
-    width: 50%;
+    width: 48.2%;
 }
 
 .subcategory-content {
-    width: 80%;
+    width: 78.2%;
 }
 
 .subcategory-header {
-    width: 20%;
+    width: 18.2%;
 }
 
 .story {
