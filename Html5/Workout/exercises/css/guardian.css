@@ -1,10 +1,40 @@
-/* MENUSTYLE */
+/*DEFAULT*/
+
+body {
+    margin: 0;
+    line-height: 1.375;
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Avenir Next, Avenir, Franklin Gothic, Trebuchet MS, Arial, sans-serif;
+    margin-top: 0;
+}
+
+a {
+    color: #8E3339;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
 
 
 /* masthead styling */
 
 * {
     box-sizing: border-box;
+}
+
+.story h3 {
+    color: #8E3339;
 }
 
 .masthead {
@@ -86,4 +116,17 @@
 
 .subcategory-header {
     width: 20%;
+}
+
+.story {
+    padding: .6875em;
+    background-color: #eee;
+}
+
+.story+.story {
+    margin-top: 1.375em;
+}
+
+.story img {
+    width: 100%;
 }
