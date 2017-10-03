@@ -86,25 +86,39 @@ a:focus {
 
 /*SEKCJE */
 
+.row {
+    margin: 0 -.6876em;
+    padding: 0;
+    list-style: none;
+}
+
 .row:after {
     content: '';
     display: block;
     clear: both;
 }
 
-.col {
-    float: left;
-    min-height: 100px;
-    margin: 0 .9% 1.375em;
-}
-
 .row-quartet>* {
-    width: 23.2%;
+    width: 25%;
 }
 
 .row-trio>* {
-    width: 31.5333%;
+    width: 33.3333%;
 }
+
+.col {
+    float: left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 .6875em 1.375em;
+}
+
+.col:last-child {
+    float: right;
+}
+
+
+/* content styling */
 
 .subcategory {
     margin-top: 1.5em;
@@ -112,15 +126,15 @@ a:focus {
 }
 
 .subcategory-featured {
-    width: 48.2%;
+    width: 50%;
 }
 
 .subcategory-content {
-    width: 78.2%;
+    width: 80%;
 }
 
 .subcategory-header {
-    width: 18.2%;
+    width: 20%;
 }
 
 .story {
