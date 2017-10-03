@@ -1,25 +1,89 @@
-.main-content {}
+/* MENUSTYLE */
 
-.secondary-content {}
 
-.column {
-    /* general column styles */
+/* masthead styling */
+
+* {
+    box-sizing: border-box;
 }
 
-.column-half {
-    /* taking up 50% of the row width */
-}
-
-.row {
-    /* general row styles */
-}
-
-body {
-    margin: 0;
+.masthead {
+    background-color: #8E3339;
 }
 
 .wrapper {
     width: 95%;
     max-width: 76em;
     margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.masthead h1 {
+    margin: 0;
+    padding: 0.5em 0;
+    color: #fff;
+    text-shadow: -.1em .1em 0 rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    background-color: #5E2126;
+}
+
+.navbar ul {
+    display: table;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navlist>li {
+    display: table-cell;
+    background-color: #752A2F;
+    text-align: center;
+    text-transform: uppercase;
+    border-left: 1px solid #8E3339;
+    table-layout: fixed;
+}
+
+.navlist>li>a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5em 2em;
+    text-align: center;
+}
+
+
+/*SEKCJE */
+
+.row:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    min-height: 100px;
+    outline: 1px solid #666;
+}
+
+.row-quartet>* {
+    width: 25%;
+}
+
+.row-trio>* {
+    width: 33.3333%;
+}
+
+.subcategory-featured {
+    width: 50%;
+}
+
+.subcategory-content {
+    width: 80%;
+}
+
+.subcategory-header {
+    width: 20%;
 }
