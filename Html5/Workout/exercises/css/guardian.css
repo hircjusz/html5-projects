@@ -95,7 +95,7 @@ a:focus {
 .col {
     float: left;
     min-height: 100px;
-    outline: 1px solid #666;
+    margin: 0 .9% 1.375em;
 }
 
 .row-quartet>* {
@@ -104,6 +104,11 @@ a:focus {
 
 .row-trio>* {
     width: 33.3333%;
+}
+
+.subcategory {
+    margin-top: 1.5em;
+    border-bottom: 1px solid #8e3339;
 }
 
 .subcategory-featured {
