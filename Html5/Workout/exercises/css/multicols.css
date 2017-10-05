@@ -24,7 +24,13 @@ p+p {
 
 .text-grid {
     float: left;
+    display: table;
+      min-height: 400px;
+}
+.text-cell{
     padding: 0 0.5em;
     display: table-cell;
-    min-height: 400px;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 auto;
 }
