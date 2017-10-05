@@ -45,7 +45,7 @@ a:focus {
     width: 95%;
     max-width: 76em;
     margin: 0 auto;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .masthead h1 {
@@ -90,6 +90,7 @@ a:focus {
     margin: 0 -.6876em;
     padding: 0;
     list-style: none;
+    display: table;
 }
 
 .row:after {
@@ -111,6 +112,9 @@ a:focus {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0 .6875em 1.375em;
+    display: table-cell;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
 }
 
 .col:last-child {
@@ -148,4 +152,34 @@ a:focus {
 
 .story img {
     width: 100%;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1000px) {
+    .subcategory-header,.subcategory-content{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px) {
+   
+    .row-quartet>*,.row-trio>*{
+        width:50%;
+        margin-top: 1em;
+    } 
+    .row-trio > .col:nth-child(1), .row-trio > .col:nth-child(3){
+        width:100%;
+    }
+    .row-quartet > .subcategory-featured{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+     .row-quartet>*,.row-trio>*{
+        width:100%;
+        margin-top: 1em;
+    } 
 }
