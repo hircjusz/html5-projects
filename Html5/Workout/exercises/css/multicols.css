@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 3em 1em;
+}
+
+article {
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+p+p {
+    text-indent: 1.25em;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.text-grid {
+    float: left;
+    padding: 0 0.5em;
+    display: table-cell;
+    min-height: 400px;
+}
