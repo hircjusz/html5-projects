@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-wrapper {
+    max-width: 22em;
+    margin: 0 auto;
+}
+
+.cal {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    max-width: 25em;
+    text-align: center;
+    font-family: "Lucida Grande", Verdana, arial, sans-serif;
+    color: #333;
+}
+
+.cal caption {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    line-height: 2;
+    font-size: 1.5em;
+}
+
+.cal a {
+    text-decoration: none;
+}
+
+.cal-weekend {
+    background-color: #fef0f0;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.cal th,
+.cal td {
+    line-height: 3;
+    padding: 0;
+    width: 14.285%;
+}
+
+.cal td {
+    border: 1px solid #eee;
+}
+
+.cal thead {
+    border-bottom: 3px solid #666;
+}
+
+.cal a {
+    display: block;
+    text-decoration: none;
+    color: #2f273c;
+}
+
+.cal a:hover,
+.cal a:focus {
+    background-color: #cde7ca;
+    background-color: rgba(167, 240, 210, 0.3);
+}
+
+.cal-inactive {
+    background-color: #efefef;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.cal-current {
+    background-color: #7d5977;
+    background-color: rgba(71, 14, 62, 0.6);
+    color: #fff;
+}
+
+.cal-current a {
+    color: #fff;
+}
+
+
+/* RESPONSOVE */
+
+@media only screen and (max-width: 375px) {
+    thead,
+    caption,
+    .cal-inactive {
+        display: none
+    }
+    table,
+    tbody {
+        display: block;
+        width: 100%;
+    }
+    .cal tr,
+    .cal td {
+        display: block;
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+    }
+    a:before {
+        content: 'Mon';
+        margin-right: 0.5em;
+    }
+}
