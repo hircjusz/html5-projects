@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: Georgia, Times New Roman, serif;
+    line-height: 1.5;
+}
+
+section {
+    margin: 1em 0;
+}
+
+#main-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#images .img-box {
+    float: left;
+    padding: 1em;
+    width: 50%;
+    text-align: center;
+}
+
+#images {
+    background-color: beige;
+    clear: both;
+    overflow: hidden;
+}
+
+#images img {
+    width: 100%;
+    display: block;
+}
+
+#nav li {
+    list-style: none;
+    list-style-image: url("../img/navfolder/folder.png");
+}
+
+#nav li a {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: cornflowerblue;
+}
