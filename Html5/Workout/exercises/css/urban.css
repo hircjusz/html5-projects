@@ -61,6 +61,14 @@
      margin: 0;
  }
  
+ .clear-padding {
+     padding: 0 !important;
+ }
+ 
+ .clear-margin {
+     margin: 0 !important;
+ }
+ 
  .pull-left {
      float: left;
  }
@@ -310,6 +318,7 @@
  footer {
      height: 175px;
      background-color: #aca982;
+     margin-top: 2em;
  }
  
  .twitter {
@@ -347,4 +356,64 @@
  
  .copyright {
      margin-top: 20px;
+ }
+ /*=========GALLERY PAGE ==========================*/
+ 
+ .gallery-heading {
+     display: block;
+     background: url("../img/urban/gallery_icon_50.gif") no-repeat right top;
+     height: 70px;
+     border-bottom: 1px solid black;
+     padding: 20px 0 5px 0;
+     margin-top: 1em;
+     line-height: 40px;
+     vertical-align: center;
+     font-size: 1.6em;
+     letter-spacing: 2px;
+ }
+ 
+ .gallery-item-header {
+     clear: both;
+     overflow: hidden;
+ }
+ 
+ .gallery-item {
+     margin-top: 2em;
+ }
+ 
+ .gallery-item-title {
+     float: left;
+     font-family: OstrichSansBold;
+     font-size: 3em;
+ }
+ 
+ .gallery-item-date {
+     float: right;
+     text-transform: uppercase;
+     line-height: 3em;
+     vertical-align: bottom;
+ }
+ 
+ .gallery-item-image {
+     height: 250px;
+     width: 100%;
+     background-size: cover !important;
+ }
+ 
+ .philadelpia {
+     background: url("../img/urban/philly_banner.jpg") no-repeat;
+ }
+ 
+ .chickago {
+     background: url("../img/urban/chicago_banner.jpg") no-repeat;
+ }
+ 
+ .new-york {
+     background: url("../img/urban/nyc_banner.jpg") no-repeat;
+ }
+ 
+ .gallery-item-description {
+     padding: 1.2em 0;
+     border-bottom: 1px solid black;
+     font-size: 1.2em;
  }
