@@ -54,6 +54,25 @@
      box-sizing: border-box;
  }
  
+ ul,
+ li,
+ p {
+     padding: 0;
+     margin: 0;
+ }
+ 
+ .pull-left {
+     float: left;
+ }
+ 
+ .pull-right {
+     float: right;
+ }
+ 
+ .row {
+     clear: both;
+ }
+ 
  body {
      font-family: "Cantarell", "sans-serif";
      /*font-family: "Cardo", "sans-serif";*/
@@ -184,8 +203,144 @@
      display: block;
      position: absolute;
      color: #fff;
-     left: 20px;
+     left: 40px;
      bottom: 5px;
      line-height: 1.4em;
      font-size: 2em;
+ }
+ /* ARTICLE SECTION */
+ 
+ #content-section {}
+ 
+ #main-article {
+     width: 950px;
+     float: left;
+     padding: 50px;
+ }
+ 
+ .article-logo {
+     line-height: 50px;
+     background-image: url("../img/urban/desolve_logo_50.png");
+     background-repeat: no-repeat;
+     background-position: right 10px;
+ }
+ 
+ .article-fs-2em {
+     font-size: 2em;
+ }
+ 
+ .article-header {
+     border-bottom: 2px solid black;
+     padding: 10px 0 20px 0;
+ }
+ 
+ .article-body-lg {
+     padding: 30px 0 20px 0;
+ }
+ 
+ .article-body {
+     padding: 10px 0;
+ }
+ 
+ .article-fs-1em {
+     font-size: 1.2em;
+ }
+ 
+ .article-ul {
+     margin-left: 3em;
+ }
+ 
+ .article-frame {
+     background-color: #ede4d6;
+     padding: 1em;
+     width: 400px;
+     border-top-left-radius: 1em;
+     border-bottom-right-radius: 1em;
+     font-size: 0.9em;
+ }
+ /*RIGHT ARTICLE*/
+ 
+ #right-article {
+     float: right;
+     min-width: 330px;
+     margin-top: 50px;
+ }
+ 
+ .sidebar-wrapper {
+     margin: 20px auto;
+     width: 280px;
+ }
+ 
+ .sidebar-title {
+     font-size: 1.2em;
+     text-align: center;
+ }
+ 
+ .gallery-elements ul li {
+     list-style: none;
+     height: 30px;
+     padding-left: 20px;
+     padding-top: 7px;
+     padding-bottom: 7px;
+     line-height: 15px;
+     margin-top: 2px;
+ }
+ 
+ .gallery-elements ul li:nth-child(2n+1) {
+     background-color: #d8d5bc;
+ }
+ 
+ .gallery-elements ul li:nth-child(2n) {
+     background-color: #ede4d6;
+ }
+ 
+ .sidebar-center {
+     text-align: center;
+ }
+ 
+ .sidebar-font {
+     font-size: 0.9em;
+ }
+ 
+ section {
+     overflow: hidden;
+ }
+ /*FOOTER*/
+ 
+ footer {
+     height: 175px;
+     background-color: #aca982;
+ }
+ 
+ .twitter {
+     width: 200px;
+     margin-top: 25px;
+     height: 90px;
+     padding-left: 110px;
+     text-align: center;
+     line-height: 90px;
+ }
+ 
+ .twitter-image {
+     background: url("../img/urban/tweet_90.png") no-repeat;
+     background-position: left;
+ }
+ 
+ .contact {
+     margin-top: 45px;
+     margin-left: 50px;
+ }
+ 
+ .contact p {
+     font-size: 1.4em;
+     display: block;
+     color: #4b6255;
+ }
+ 
+ .contact input[type='text'] {
+     width: 100%;
+ }
+ 
+ .contact input {
+     margin-top: 0.5em;
  }
