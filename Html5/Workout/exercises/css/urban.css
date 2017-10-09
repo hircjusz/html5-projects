@@ -85,6 +85,8 @@
  #main-wrapper {
      max-width: 1280px;
      margin: 0 auto;
+     min-width: 1270px;
+     overflow: hidden;
  }
  
  #logo {
@@ -210,8 +212,6 @@
  }
  /* ARTICLE SECTION */
  
- #content-section {}
- 
  #main-article {
      width: 950px;
      float: left;
@@ -262,7 +262,7 @@
  
  #right-article {
      float: right;
-     min-width: 330px;
+     max-width: 330px;
      margin-top: 50px;
  }
  
@@ -343,4 +343,8 @@
  
  .contact input {
      margin-top: 0.5em;
+ }
+ 
+ .copyright {
+     margin-top: 20px;
  }
