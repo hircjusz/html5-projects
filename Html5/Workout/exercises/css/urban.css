@@ -81,6 +81,14 @@
      clear: both;
  }
  
+ .half {
+     width: 50%;
+ }
+ 
+ .whole {
+     width: 100%;
+ }
+ 
  body {
      font-family: "Cantarell", "sans-serif";
      /*font-family: "Cardo", "sans-serif";*/
@@ -416,4 +424,34 @@
      padding: 1.2em 0;
      border-bottom: 1px solid black;
      font-size: 1.2em;
+ }
+ /* =========================GEAR=================================*/
+ 
+ .gear-heading-wrapper {
+     margin-top: 70px;
+ }
+ 
+ .gear-heading-wrapper>p {
+     font-family: OstrichSansBold;
+     font-size: 10em;
+ }
+ 
+ .gear-article {
+     column-count: 2;
+ }
+ 
+ .gear-article p {
+     margin-bottom: 1em;
+ }
+ 
+ .gear-image-wrapper {
+     margin-top: 3em;
+ }
+ 
+ .gear-image-item {
+     padding: 7px;
+ }
+ 
+ .gear-image-item img {
+     width: 100%;
  }
